@@ -157,28 +157,7 @@ export const Contact = () => {
                     <div className="mt-8">
                       <h3 className="text-xl font-semibold mb-4">Follow Me</h3>
                       <div className="flex gap-4">
-                        <motion.a
-                          href="https://dribbble.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          whileHover={{ scale: 1.1 }}
-                          whileTap={{ scale: 0.9 }}
-                          className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
-                        >
-                          <Icon icon="logos:dribbble-icon" className="w-5 h-5" />
-                          <span className="sr-only">Dribbble</span>
-                        </motion.a>
-                        <motion.a
-                          href="https://behance.net"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          whileHover={{ scale: 1.1 }}
-                          whileTap={{ scale: 0.9 }}
-                          className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
-                        >
-                          <Icon icon="logos:behance" className="w-5 h-5" />
-                          <span className="sr-only">Behance</span>
-                        </motion.a>
+                       
                         <motion.a
                           href="https://linkedin.com"
                           target="_blank"
