@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@heroui/react";
 import { Icon } from "@iconify/react";
+import myImage from "../assets/orewa.jpg"; 
+
 
 export const Hero = () => {
   return (
@@ -145,7 +147,7 @@ export const Hero = () => {
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-2 border-primary/20">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5"></div>
               <img
-                src="src/Assets/orewa.jpg"
+                src={myImage}
                 alt="Pratik Tamanag"
                 className="w-full h-full object-cover"
               />
