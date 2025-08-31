@@ -87,20 +87,20 @@ export const Contact = () => {
     {
       icon: "lucide:mail",
       title: "Email",
-      value: "pratik@example.com",
-      link: "mailto:pratik@example.com",
+      value: "tamangpratik0102@gamil.com",
+      link: "mailto:tamangpratik0102@gamil.com",
     },
     {
       icon: "lucide:phone",
       title: "Phone",
-      value: "+1 234 567 890",
-      link: "tel:+1234567890",
+      value: "9863896222",
+      link: "tel:+ 977 9863896222",
     },
     {
       icon: "lucide:map-pin",
       title: "Location",
-      value: "San Francisco, CA",
-      link: "https://maps.google.com/?q=San+Francisco,+CA",
+      value: "kathmandu",
+      link: "https://maps.app.goo.gl/NYrTjjfxz4cS4Ayf7",
     },
   ];
 
