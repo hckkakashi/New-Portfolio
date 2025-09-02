@@ -33,7 +33,7 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 tracking-tight"
             >
-              Pratik Tamanag
+              Pratik Tamang
             </motion.h1>
             
             <motion.h2

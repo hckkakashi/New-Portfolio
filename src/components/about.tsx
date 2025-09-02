@@ -91,7 +91,7 @@ export const About = () => {
                       UI/UX Designer & Creative Problem Solver
                     </h3>
                     <p className="text-foreground/80 mb-6 text-pretty">
-                      I'm Pratik Tamanag, a passionate UI/UX designer with a keen eye for detail and a love for creating beautiful, functional digital experiences. With a background in visual design and user research, I specialize in crafting interfaces that are not only aesthetically pleasing but also intuitive and user-friendly.
+                      I'm Pratik Tamang, a passionate UI/UX designer with a keen eye for detail and a love for creating beautiful, functional digital experiences. With a background in visual design and user research, I specialize in crafting interfaces that are not only aesthetically pleasing but also intuitive and user-friendly.
                     </p>
                     <p className="text-foreground/80 mb-6 text-pretty">
                       My design philosophy centers around understanding user needs and business goals to create solutions that bridge the gap between them. I believe that great design should be invisible, allowing users to accomplish their tasks effortlessly while enjoying the journey.

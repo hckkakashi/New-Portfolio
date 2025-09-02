@@ -76,7 +76,7 @@ export const Footer = () => {
           className="flex flex-col md:flex-row justify-between items-center"
         >
           <p className="text-foreground/60 text-sm">
-            © {currentYear} Pratik Tamanag. All rights reserved.
+            © {currentYear} Pratik Tamang. All rights reserved.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="text-foreground/60 hover:text-primary text-sm transition-colors">
