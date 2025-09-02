@@ -67,7 +67,7 @@ export const Projects = () => {
       title: "Evolve LBEF Website",
       category: "web",
       image: Evolve,
-      description: "EVOLVE is a flagship initiative of LBEF Campus aimed at empowering students and young professionals through innovation, collaboration, and skill development. It provides a platform to share ideas, attend workshops, network with experts, and showcase talents that can create real-world impact.",
+      description: "EVOLVE is a flagship initiative of LBEF Campus aimed at empowering students and young professionals through innovation, collaboration, and skill development.",
       tags: ["Landing Page", "UI Design"],
       link: "https://www.figma.com/design/4fivsgqnbjdQ4MjftbNAHE/Evolve-Lbef?node-id=0-1&t=zztvkKMyMRm5TWzE-1",
     },
