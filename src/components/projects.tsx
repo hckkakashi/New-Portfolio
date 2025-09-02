@@ -2,6 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Card, CardBody, Button, Tabs, Tab } from "@heroui/react";
 import { Icon } from "@iconify/react";
+import Raktaveer from "../raktaveer.png";
+import Pcps from "../pcps.png";
+import Furniture from "../furniture.png";
+import Hack from "../hackx.png";
+import Evolve from "../evolve.png";
+import epes from "../epes.png";
+
 
 type Project = {
   id: number;
@@ -21,57 +28,57 @@ export const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Finance App Redesign",
+      title: "Raktaveer App",
       category: "mobile",
-      image: "https://img.heroui.chat/image/finance?w=600&h=400&u=1",
-      description: "A complete redesign of a financial management application with improved user experience and visual appeal.",
+      image: Raktaveer,
+      description: "Raktaveer is a life-saving mobile application designed to connect blood donors with those in urgent need. The app simplifies the process of requesting and donating blood by creating a trusted digital platform where patients, families, and donors can interact quickly and efficiently.",
       tags: ["UI Design", "UX Research", "Mobile App"],
-      link: "#",
+      link: "https://www.figma.com/design/zspkl8zqucSL3E2LvDSNnU/MYM-RaktaVeer?node-id=0-1&t=lUeCzQp3vjTCPkKC-1",
     },
     {
       id: 2,
-      title: "E-commerce Website",
+      title: "School Website",
       category: "web",
-      image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
-      description: "A modern e-commerce platform with intuitive navigation and seamless checkout process.",
-      tags: ["Web Design", "UI/UX", "E-commerce"],
-      link: "#",
+      image: epes,
+      description: "A school website is an official digital platform that provides students, parents, teachers, and the community with easy access to important information. It typically includes details about the school’s history, vision, mission, academic programs, admission process, events, notices, and contact information.",
+      tags: ["Web Design", "UI/UX", "School"],
+      link: "https://www.figma.com/design/qVKszNIX3SwUvr6T2Bnty5/East-Point-English-School-Website?node-id=10-2&t=Cp1RMkdnHahpZ4fN-1",
     },
     {
       id: 3,
-      title: "Health Tracking Dashboard",
+      title: "Furniture Website",
       category: "web",
-      image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
-      description: "A comprehensive health monitoring dashboard that visualizes user health data in an intuitive way.",
-      tags: ["Dashboard", "Data Visualization", "Healthcare"],
-      link: "#",
+      image: Furniture,
+      description: "A furniture website is an online platform where customers can browse, explore, and purchase a wide range of furniture products. It serves as a digital showroom showcasing modern, classic, and custom-designed pieces for homes, offices, and outdoor spaces.",
+      tags: ["UI Design", "UX Research", "E-commerce",],
+      link: "https://www.figma.com/design/Cc7Rnw3PIX54bXn5ayQZDR/Furniture-Website?node-id=0-1&t=fcW2hH4louGdLSkq-1",
     },
     {
       id: 4,
-      title: "Travel Companion App",
+      title: "PCPS LIFE",
       category: "mobile",
-      image: "https://img.heroui.chat/image/places?w=600&h=400&u=4",
-      description: "A travel app that helps users discover, plan, and navigate their journeys with personalized recommendations.",
-      tags: ["Mobile App", "UI Design", "Travel"],
-      link: "#",
+      image:Pcps ,
+      description: "PCPS LIFE is an all-in-one mobile application designed exclusively for PCPS students, faculty, and staff. The app creates a digital ecosystem where academic, administrative, and social activities come together in one place. From accessing study materials and tracking academic progress to staying updated with events, notices, and campus life, PCPS LIFE ensures a smooth and connected college experience.",
+      tags: ["Mobile App", "UI Design", "College"],
+      link: "https://www.figma.com/design/Y1vk3r9920d7aHeLO65NVm/College-app?node-id=0-1&t=CSWRCVhBros8rNg8-1",
     },
     {
       id: 5,
-      title: "Smart Home Control System",
+      title: "Evolve LBEF Website",
       category: "web",
-      image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
-      description: "An intuitive interface for controlling smart home devices with customizable dashboards.",
-      tags: ["IoT", "Dashboard", "Smart Home"],
-      link: "#",
+      image: Evolve,
+      description: "EVOLVE is a flagship initiative of LBEF Campus aimed at empowering students and young professionals through innovation, collaboration, and skill development. It provides a platform to share ideas, attend workshops, network with experts, and showcase talents that can create real-world impact.",
+      tags: ["Landing Page", "UI Design"],
+      link: "https://www.figma.com/design/4fivsgqnbjdQ4MjftbNAHE/Evolve-Lbef?node-id=0-1&t=zztvkKMyMRm5TWzE-1",
     },
     {
       id: 6,
-      title: "Social Media Platform",
+      title: "Hack-X Website",
       category: "web",
-      image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-      description: "A modern social platform focused on community building and content sharing.",
-      tags: ["Social Media", "Web App", "Community"],
-      link: "#",
+      image: Hack,
+      description: "Hack X is a premier hackathon bringing together developers, designers, entrepreneurs, and innovators to solve real-world problems through technology. Participants collaborate in teams, brainstorm solutions, and build prototypes that push the boundaries of innovation.",
+      tags: ["Hackthone", "Web App", "Ui Design"],
+      link: "https://www.figma.com/design/jlMSuKnEcXfl2PZEscLdGR/HACK-X?node-id=0-1&t=fsGlg6JbgEzyHKhw-1",
     },
   ];
 
@@ -220,7 +227,7 @@ export const Projects = () => {
           <motion.div variants={itemVariants} className="text-center mt-12">
             <Button
               as="a"
-              href="https://dribbble.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               color="primary"

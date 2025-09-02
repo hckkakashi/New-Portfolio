@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Card, CardBody, Divider } from "@heroui/react";
 import { Icon } from "@iconify/react";
+import myimage from "../myimage.jpg";
+
 
 export const About = () => {
   const [isVisible, setIsVisible] = React.useState(false);
@@ -77,7 +79,7 @@ export const About = () => {
                       <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg blur"></div>
                       <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
                         <img
-                          src="src/Assets/orewa.jpg"
+                          src={myimage}
                           alt="Pratik Tamanag"
                           className="w-full h-full object-cover"
                         />
